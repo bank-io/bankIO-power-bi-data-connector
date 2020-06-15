@@ -10,7 +10,7 @@ In Power BI Desktop, select **File** > **Options and settings** > **Options** > 
 
 Under **Data Extensions**, select **(Not Recommended) Allow any extension to load without validation or warning**. Select **OK**, and then restart Power BI Desktop.
 
-See here more details [Connector extensibility in Power BI](https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-connector-extensibility)
+See here more details [Connector extensibility in Power BI](https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-connector-extensibility).
 
 ## Environment variables (WebApp.json file)
 
