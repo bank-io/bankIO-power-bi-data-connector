@@ -1,6 +1,6 @@
 {
   "web": {
-    "client_id": "******",
+    "client_id": "WKETJ4mufKKaV58dkDjaM",
     "authorize_uri": "https://bankio.ro/create-power-bi-account-consent",
     "token_uri": "https://ob.bankio.ro/api/auth/token",
     "logout_uri": "https://ob.bankio.ro/api/auth/session/end",
