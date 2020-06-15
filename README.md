@@ -2,7 +2,7 @@
 
 ## Use
 
-Download the latest [release file](/bank-io/bankIO-power-bi-data-connector/releases/latest/download/bankIO.mez) into your [Documents]\Power BI Desktop\Custom Connectors folder. If the folder doesn't exist, create it.
+Download the latest [release file](https://github.com/bank-io/bankIO-power-bi-data-connector/releases/download/1.0beta/bankIO.mez) into your [Documents]\Power BI Desktop\Custom Connectors folder. If the folder doesn't exist, create it.
 
 Adjust the data extension security settings as follows:
 
