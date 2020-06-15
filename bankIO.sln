@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4DF76451-A46A-4C0B-BE03-459FAAFA07E6}") = "bankIO", "bankIO.mproj", "{0AEB8057-CF60-4A37-A9EC-48B6414B29AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AEB8057-CF60-4A37-A9EC-48B6414B29AF}.Debug|x86.ActiveCfg = Debug|x86
+		{0AEB8057-CF60-4A37-A9EC-48B6414B29AF}.Debug|x86.Build.0 = Debug|x86
+		{0AEB8057-CF60-4A37-A9EC-48B6414B29AF}.Release|x86.ActiveCfg = Release|x86
+		{0AEB8057-CF60-4A37-A9EC-48B6414B29AF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {578E2C44-128E-4B96-8E69-F71F0D1E85CE}
+	EndGlobalSection
+EndGlobal
