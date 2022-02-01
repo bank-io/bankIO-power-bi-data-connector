@@ -40,6 +40,7 @@ BankIO.Publish = [
 ];
 
 DefaultRequestHeaders = [
+    #"x-request-id" = Text.NewGuid(),
     #"Accept" = "application/json"  // column name and values only
 ];
 
@@ -256,7 +257,7 @@ shared BankIO.GetAccountBalances = (resourceId as text) as table =>
 shared BankIO.GetAccountTransactions = (resourceId as text) as table =>
     let
         access_token = Extension.CurrentCredential()[access_token],
-        seed = BaseUrl & "api/org/" & organisation & "/v1/accounts/" & resourceId & "/transactions",
+        seed = BaseUrl & "api/org/" & organisation & "/v1/accounts/" & resourceId & "/transactions" & "?" & Uri.BuildQueryString([bookingStatus = "both"]),
 
         schemaTable = GetSchemaForEntity("Transactions"),
 
